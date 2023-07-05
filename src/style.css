@@ -4,7 +4,7 @@
   }
   
   body {
-    background-image: url('C:/Users/Asus/Documents/react-project/shoppinglist/src/wallpaper.png');
+    background-image: url('shoppinglist/src/wallpaper.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
