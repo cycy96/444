@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('public/images/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+  }  
+  
+  .new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .button {
+    background: black;
+    color: white;
+  }
+  
+  .button:hover,
+  .button:focus-visible {
+    background: white;
+    color: black;
+  }
+  
+  .buttondel {
+    background: white;
+    color: black;
+    height: 23px;
+    width: 30px;
+    padding: 0;
+  }
+  
+  .buttondel:hover,
+  .buttondel:focus-visible {
+    background: grey;
+  }
+  
+  .new-item-form input {
+    outline: none;
+    border: 1px solid black;
+    background: white;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    color: black
+  }
+  
+  .new-item-form input:focus {
+    border: 1px solid grey;
+  }
+  
+  .list {
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .list li:has(input:checked) label {
+    color: #422517;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .list li {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
